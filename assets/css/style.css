@@ -3,7 +3,7 @@
     --primary-color: #3498db;
     --secondary-color: #2c3e50;
     --accent-color: #e74c3c;
-    --bg-color: #ecf0f1;
+    --bg-color: #e6eaeb;
     --txt-color: #2c3e50;
     --bg-color2: #f9f9f9;
     --txt-color2: #333;
@@ -15,7 +15,7 @@
     --secondary-color: #ecf0f1;
     --accent-color: #e74c3c;
     --bg-color: #253443;
-    --txt-color: #ecf0f1;
+    --txt-color: #e6eaeb;
     --bg-color2: #1d1d1d;
     --txt-color2: #f9f9f9;
 }
@@ -355,6 +355,7 @@ nav {
 .contact-info p {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
+    color: var(--txt-color);
 }
 
 .contact-info i {
