@@ -111,6 +111,20 @@ nav {
     cursor: pointer;
 }
 
+.alternar-tema{
+    display: block;
+    font-size: 1.4em;
+    color: white;
+    padding: 6px 8px 0px 8px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.modo-escuro{   
+    background-color: black;
+    color: white;
+}
+
 /* Hero Section */
 .hero {
     height: 100vh;
