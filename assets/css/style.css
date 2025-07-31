@@ -3,7 +3,7 @@
     --primary-color: #3498db;
     --secondary-color: #2c3e50;
     --accent-color: #e74c3c;
-    --bg-color: #e6eaeb;
+    --bg-color: #dddedf;
     --txt-color: #2c3e50;
     --bg-color2: #f9f9f9;
     --txt-color2: #333;
@@ -11,7 +11,7 @@
 }
 
 .modo-escuro{ 
-    --primary-color: #3498db;
+    --primary-color: #2ec53b;
     --secondary-color: #ecf0f1;
     --accent-color: #e74c3c;
     --bg-color: #253443;
@@ -73,7 +73,7 @@ a {
     background: var(--primary-color);
 }
 
-/* Header & Navigation */
+/* Header e Navigação */
 header {
     background: var(--bg-color);
     color: var(--txt-color);
@@ -232,10 +232,11 @@ nav {
     font-size: 0.9rem;
 }
 
-/* Qualification Section */
+/* Seção de Qualificação */
 .qualification {
     padding: 6rem 5%;
     background: var(--bg-color2);
+    color: var(--txt-color2);
 }
 
 .qualification-container {
