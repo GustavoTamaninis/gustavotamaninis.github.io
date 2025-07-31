@@ -116,7 +116,7 @@ nav {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/project1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/bg.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -237,7 +237,7 @@ nav {
 }
 
 .certificates {
-    max-width: 1200px;
+    max-width: 500px;
     margin: 0 auto;
     text-align: center;
 }
