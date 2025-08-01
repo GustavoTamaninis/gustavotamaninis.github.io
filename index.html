@@ -115,16 +115,22 @@
                     <p><i class="fas fa-envelope"></i>gustavotamanini2005@gmail.com</p>
                     <a href="https://github.com/GustavoTamaninis" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                     <a href="https://www.linkedin.com/in/gustavo-tamanini/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    <!-- <a href="#"><i class="fas fa-file-pdf"></i> Resume</a> -->
                 </div>
             </div>
             <form class="contact-form">
                 <label for="nome"></label>
                 <input type="text" id="nome" placeholder="Seu Nome" required>
+                <div class="empty-name"><p>O Nome é obrigatório.</p></div>
+
                 <label for="email"></label>
                 <input type="email" id="email" placeholder="Seu Email" required>
-                <textarea placeholder="Sua Mensagem" required></textarea>
-                <button type="submit" class="btn">Enviar Mensagem</button>
+                <div class="empty-email"><p>O E-mail é obrigatório</p></div>
+                <div class="invalid-email"><p>O E-mail inserido é inválido.</p></div>
+                
+                <textarea placeholder="Sua Mensagem" required id="mensagem"></textarea>
+                <div class="empty-message"><p>A Mensagem é obrigatória.</p></div>
+
+                <button type="submit" class="btn" id="envio-formulario">Enviar Mensagem</button>
             </form>
         </div>
     </section>
@@ -133,7 +139,7 @@
         <p>&copy; 2025 Portfólio Dev. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="assets/scripts/valForm.js"></script>
+    <script src="assets/scripts/val-form.js"></script>
     <script src="assets/scripts/alt-temas.js"></script>
 </body>
 </html>

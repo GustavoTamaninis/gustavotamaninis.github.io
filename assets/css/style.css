@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Estilos globais */
 :root {
     --primary-color: #3498db;
     --secondary-color: #2c3e50;
@@ -73,7 +73,7 @@ a {
     background: var(--primary-color);
 }
 
-/* Header e Navigação */
+/* Cabeçalho e Navegação */
 header {
     background: var(--bg-color);
     color: var(--txt-color);
@@ -142,7 +142,7 @@ nav {
     background-color: var(--txt-color2);
 }
 
-/* Hero Section */
+/* Seção de Herói */
 .hero {
     height: 100vh;
     display: flex;
@@ -180,7 +180,7 @@ nav {
     margin-bottom: 2rem;
 }
 
-/* About Section */
+/* Seção sobre mim */
 .about {
     padding: 6rem 5%;
     background: var(--bg-color2);
@@ -331,7 +331,7 @@ nav {
     text-align: center;
 }
 
-/* Contact Section */
+/* Seção de contato */
 .contact {
     padding: 6rem 5%;
     background: var(--bg-color2);
@@ -397,7 +397,7 @@ nav {
 .contact-form textarea {
     width: 100%;
     padding: 1rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1rem;
@@ -410,9 +410,18 @@ nav {
 
 .contact-form button {
     width: 100%;
+    margin-top: 20px;
 }
 
-/* Footer */
+.empty-name, .empty-email, .invalid-email, .empty-message{
+    display: none;
+    background-color: #e74c3c;
+    padding: 3px 10px;
+    font-size: 0.9em;
+    border-radius: 0px 0px 5px 5px;
+}
+
+/* Rodapé */
 footer {
     text-align: center;
     padding: 2rem;
@@ -421,7 +430,7 @@ footer {
     background-color: var(--bg-foot);
 }
 
-/* Responsive Design */
+/* Design responsivo */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -451,7 +460,7 @@ footer {
     }
 }
 
-/* Animations */
+/* Animações */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
