@@ -120,9 +120,40 @@ nav {
     color: var(--primary-color);
 }
 
-.burger {
+.burger{
+    width: 48px;
+    height: 48px;
     display: none;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.burger-nav{
+    display: none;
+    background-color: var(--bg-color);
+}
+
+
+.burger-nav.ligado{
+    display: inline-block;
+}
+
+.burger-nav > li{
+    text-align: center;
+    width: 100vw;    
+    padding: 15px 0px;
+}
+
+.burger-nav a{
+    font-size: 1.5rem;
+}
+
+.burger-nav > li:hover{
+    cursor: pointer;
+    background-color: var(--bg-color2);
+    opacity: 0.7;
 }
 
 .alternar-tema{
@@ -132,11 +163,10 @@ nav {
     padding: 4px 9px 0px 9px;
     border-radius: 15px;
     background-color: var(--bg-color2);
-    border: 1px solid rgb(50, 50, 50);
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
 }
 
-.alternar-tema:hover{
+.alternar-tema:hover, .burger:hover{
     cursor: pointer;
     color: var(--bg-color2);
     background-color: var(--txt-color2);
@@ -436,8 +466,16 @@ footer {
         display: none;
     }
 
-    .burger {
-        display: block;
+    .logo {
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-left: -10px;
+    }
+
+    .burger{
+        display: flex;
+        justify-content: center;
+        margin-left: -80px;
     }
 
     .hero h1 {
